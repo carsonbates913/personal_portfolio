@@ -1,16 +1,16 @@
 {
+  "homepage": "https://carsonbates913.github.io/personal_portfolio",
   "name": "personal_portfolio",
-  "private": true,
+  "private": true, 
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://carsonbates913.github.io/personal_portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "lint": "eslint .",
-    "preview": "vite preview",
-      "predeploy": "npm run build",
-  "deploy": "gh-pages -d build"
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^18.3.1",
