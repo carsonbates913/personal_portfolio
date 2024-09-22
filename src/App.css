@@ -44,11 +44,11 @@ p {
 }
 
 .background-overlay{
-  height: 2000px;
+  height: 6700px;
   width: 100vw;
   position: absolute;
   z-index: -1;
-  background: linear-gradient(to bottom,  #010110 0%,#130847 44%,#190d59 56%,#201365 68%,#321a80 71%,#452199 75%,#5624a1 78%);
+  background: linear-gradient(to bottom,  #010110 0%,#130847 44%,#190d59 70%,#201365 80%,#321a80 90%,#452199 92%,#5624a1 93%);
   justify-content: center;
 }
 
@@ -139,6 +139,11 @@ nav {
   border-radius: 25px;
   background-color: transparent;
   margin: 0 10px;
+  transition: transform .2s ease-out;
+}
+
+.contact-button:hover {
+  transform: scale(1.1);
 }
 
 .brand-logo {
@@ -147,7 +152,8 @@ nav {
 }
 
 .star-section {
-  height: 800px;
+  position: relative;
+  height: 2000px;
   width: 100vw;
 }
 
@@ -170,4 +176,122 @@ nav {
   width: 3px;
   border-radius: 3px;
   background-color: white;
+}
+
+/*PROJECT SECTION*/
+
+.section-projects {
+  width: 100vw;
+  margin: 200px 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.project-container {
+  height: 400px;
+  width: 80%;
+  padding: 2rem 1.5rem;
+  border-radius: 30px;
+  margin: 100px 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.project-image-container {
+  height: 100%;
+  width: 600px;
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.198);
+
+}
+
+.project-image {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform .2s ease-out
+}
+
+.project-image:hover {
+  transform: scale(1.05);
+}
+
+.project-details {
+  height: 85%;
+  flex: 1;
+  color: black;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-title {
+  color: black;
+  margin: 30px 5px 40px 5px;
+
+}
+
+.project-description {
+  margin: 10px;
+  text-align: center;
+  color: rgba(0, 0, 0, 0.504);
+  max-width: 300px;
+  font-family: montserrat, sans-serif;
+}
+
+.project-github-button {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  border: none;
+  margin: 10px 0 0 0;
+  background-color: transparent;
+}
+
+.project-github-button:hover {
+  background-color: rgba(128, 128, 128, 0.145);
+}
+
+.section-animations {
+  width: 100vw;
+  margin: 200px 0;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+}
+
+.animations-container {
+  height: 400px;
+  width: 90%;
+  padding: 2rem 1.5rem;
+  border-radius: 30px;
+  margin: 100px 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+}
+
+.animation {
+  border-radius: 5px;
+  flex: 1;
+}
+
+.video {
+  height: 337.5px; 
+  border-radius: 10px;
+}
+
+.city-image {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+
 }
