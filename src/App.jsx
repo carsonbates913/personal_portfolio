@@ -38,7 +38,7 @@ function App(){
     <section className='section-intro'>
       <h1>Hello, I'm Carson</h1>
       <div className='profile-container'>
-      <img className='profile-picture' src='/Personal_Website_Photo.JPG'></img>
+      <img className='profile-picture' src='/personal_portfolio/Personal_Website_Photo.JPG'></img>
       </div>
       <h3>I am a web developer</h3>
       <div className='contacts-container'>
