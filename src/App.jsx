@@ -61,7 +61,7 @@ function App(){
     </section>
     <section className='section-projects' ref={projectSection}>
       <h2>Here are some of my projects</h2>
-      <Project projectTitle='To-Do List App' projectDescription={TODO_DESCRIPTION} projectImage='todolistapp.png' githubLink={'https://github.com/carsonbates913/todo_list'}/>
+      <Project projectTitle='To-Do List App' projectDescription={TODO_DESCRIPTION} projectImage='todolistapp.png' githubLink={'https://github.com/carsonbates913/todo_list_react'}/>
 
       <Project projectTitle='Italian Recipe App' projectDescription={RECIPE_DESCRIPTION} projectImage='Recipe_App.png' isReverse={true} githubLink={'https://github.com/carsonbates913/ItalianRecipes'}/>
 
