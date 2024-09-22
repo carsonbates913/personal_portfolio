@@ -1,4 +1,3 @@
-
 function Project({projectTitle, projectImage, projectDescription, isReverse = false, githubLink}) {
 
   if(!isReverse){

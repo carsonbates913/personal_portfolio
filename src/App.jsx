@@ -19,7 +19,7 @@ function App(){
       <StarSection lower={2} upper={3} numberStars={150}></StarSection>
       <StarSection lower={2} upper={2} numberStars={75}></StarSection>
       <StarSection lower={1} upper={2} numberStars={50}></StarSection>
-      <img ref={atlantaSection} src='../public/AtlantaCityScape.png' className='city-image'></img>
+      <img ref={atlantaSection} src='./public/AtlantaCityScape.png' className='city-image'></img>
     </div>
     <header>
       <div className='header-logo'>CDB</div>
@@ -38,7 +38,7 @@ function App(){
     <section className='section-intro'>
       <h1>Hello, I'm Carson</h1>
       <div className='profile-container'>
-      <img className='profile-picture' src='../public/Personal_Website_Photo.JPG'></img>
+      <img className='profile-picture' src='/Personal_Website_Photo.JPG'></img>
       </div>
       <h3>I am a web developer</h3>
       <div className='contacts-container'>
@@ -61,7 +61,7 @@ function App(){
     </section>
     <section className='section-projects' ref={projectSection}>
       <h2>Here are some of my projects</h2>
-      <Project projectTitle='To-Do List App' projectDescription={TODO_DESCRIPTION} projectImage='Todo_list_App.png' githubLink={'https://github.com/carsonbates913/todo_list'}/>
+      <Project projectTitle='To-Do List App' projectDescription={TODO_DESCRIPTION} projectImage='todolistapp.png' githubLink={'https://github.com/carsonbates913/todo_list'}/>
 
       <Project projectTitle='Italian Recipe App' projectDescription={RECIPE_DESCRIPTION} projectImage='Recipe_App.png' isReverse={true} githubLink={'https://github.com/carsonbates913/ItalianRecipes'}/>
 
