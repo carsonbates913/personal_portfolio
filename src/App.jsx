@@ -19,7 +19,7 @@ function App(){
       <StarSection lower={2} upper={3} numberStars={150}></StarSection>
       <StarSection lower={2} upper={2} numberStars={75}></StarSection>
       <StarSection lower={1} upper={2} numberStars={50}></StarSection>
-      <img ref={atlantaSection} src='./public/AtlantaCityScape.png' className='city-image'></img>
+      <img ref={atlantaSection} src='/personal_portfolio/AtlantaCityScape.png' className='city-image'></img>
     </div>
     <header>
       <div className='header-logo'>CDB</div>
@@ -77,11 +77,11 @@ function App(){
       <h2>Here are some animations that I am proud of</h2>
       <div className='animations-container'>
           <video className='video'controls width="600">
-            <source src="../public/Carson_FinalAnimation_Compressed.mp4" type="video/mp4"/>
+            <source src="/personal_portfolio/Carson_FinalAnimation_Compressed.mp4" type="video/mp4"/>
               Your browser does not support the video tag.
           </video>
           <video className='video'controls width="600">
-            <source src="../public/RemyMovie.mp4" type="video/mp4"/>
+            <source src="/personal_portfolio/RemyMovie.mp4" type="video/mp4"/>
               Your browser does not support the video tag.
           </video>
       </div>

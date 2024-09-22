@@ -4,7 +4,7 @@ function Project({projectTitle, projectImage, projectDescription, isReverse = fa
     return <>
     <div className='project-container'>
       <div className='project-image-container'>
-        <img src={`../../public/${projectImage}`} className='project-image'></img>
+        <img src={`/personal_portfolio/${projectImage}`} className='project-image'></img>
       </div>
       <div className='project-details'>
         <h3 className='project-title'>{projectTitle}</h3>
