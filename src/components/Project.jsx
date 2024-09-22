@@ -35,7 +35,7 @@ function Project({projectTitle, projectImage, projectDescription, isReverse = fa
         </div>
       </div>
       <div className='project-image-container'>
-        <img src={`../../public/${projectImage}`} className='project-image'></img>
+        <img src={`/personal_portfolio/${projectImage}`} className='project-image'></img>
       </div>
     </div>
   </>
